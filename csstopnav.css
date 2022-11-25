@@ -1,0 +1,61 @@
+body {font-family: Ubuntu}
+* {box-sizing: border-box;}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-Regular.ttf);
+}
+.Spinning {
+  /* The image used */
+    background-image: url("media/Spinning.jpg");
+    width:100%;
+    height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: right;
+  background-repeat: no-repeat;
+  
+  /* Needed to position the navbar */
+  position: absolute;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: relative;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+}
+
+/* Navbar links */
+.topnav a {
+  float: right;
+  color: #F2F2F2;
+  text-align: right;
+  padding: 40px 40px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-right: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }

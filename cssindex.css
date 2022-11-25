@@ -1,0 +1,40 @@
+body {
+  position: relative;
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(fonts/Ubuntu-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Mono;
+    src: url(fonts/SpaceMono-Regular.ttf);
+    }
+
+.Turntablism {
+  font-family: Ubuntu;
+  color: #D97373;
+  font-size: 50px;
+  position:absolute;
+  display: flex;
+  margin-left: 250px;
+  margin-top: 350px;
+}
+
+.introduccion {
+  width: 70%;
+  height: 80%;
+  display:flex;
+  background-color: #F2F2F2;
+}
+p  {
+  display: grid;
+  grid-column: auto;
+  font-family: Mono;
+}
+
+.card {
+  grid-template-columns: auto auto auto auto;
+  display:grid;
+}
